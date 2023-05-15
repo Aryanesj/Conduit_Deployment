@@ -1,0 +1,5 @@
+# Dockerfile
+FROM mongo:4.4-bionic
+
+# Declaring the port on which MongoDB will run
+EXPOSE 27017
